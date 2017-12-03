@@ -1,6 +1,20 @@
 # IDE directories
-/.idea
-/.project
+.idea
+.shelf
+/*.iml
+/*.ipr
+/*.iws
+*.classpath
+*.project
+*.settings
+/bin
+/subprojects/*/bin
+atlassian-ide-plugin.xml
+.metadata/
+
+# Gradle build files
+.gradle
+/build
 
 # Package Files #
 *.jar
